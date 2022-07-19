@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="Key-Value-Map-Operations-1" mapIdentifier="Token_C">
+    <DisplayName>Key Value Map Operations-1</DisplayName>
+    <Properties/>
+    <Get assignTo="client_id">
+        <Key>
+            <Parameter>client_id</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="client_secret">
+        <Key>
+            <Parameter>client_secret</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

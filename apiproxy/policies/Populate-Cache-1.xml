@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PopulateCache async="false" continueOnError="false" enabled="true" name="Populate-Cache-1">
+    <DisplayName>Populate Cache-1</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment>access_token</KeyFragment>
+    </CacheKey>
+    <CacheResource>Oauth</CacheResource>
+    <Scope>Exclusive</Scope>
+    <Source>access_token</Source>
+</PopulateCache>

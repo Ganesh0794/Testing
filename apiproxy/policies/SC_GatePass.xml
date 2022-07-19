@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SC_GatePass">
+    <DisplayName>SC_GatePass</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <Set>
+            <Headers>
+                <Header name="Content-Type">application/x-www-form-urlencoded</Header>
+            </Headers>
+            <FormParams>
+                <FormParam name="client_id">{client_id}</FormParam>
+                <FormParam name="client_secret">{client_secret}</FormParam>
+                <FormParam name="grant_type">client_credentials</FormParam>
+            </FormParams>
+        </Set>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://tricksintrades-eval-test.apigee.net/gate_pass</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

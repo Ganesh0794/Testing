@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="Cache_testing">
+    <Basepaths>/cache_testing</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1658049921052</CreatedAt>
+    <CreatedBy>tricksintrades@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Cache_testing</DisplayName>
+    <LastModifiedAt>1658141261586</LastModifiedAt>
+    <LastModifiedBy>tricksintrades@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:16430fc47f59297f1302b8362a35082b493489ab45235130f2e23c96004d0528b8345da8cc199afad9f6ecfdcb43aae18d58d489dfe5d21c9b58a27c32504450:ap-southeast-2</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Flow-Callout-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>Key-Value-Map-Operations-1</Policy>
+        <Policy>Lookup-Cache-1</Policy>
+        <Policy>Populate-Cache-1</Policy>
+        <Policy>SC_GatePass</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
